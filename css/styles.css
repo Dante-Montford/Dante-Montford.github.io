@@ -29,6 +29,7 @@ body {
   background-color: #9e1628;
   color: #fff;
   font-size: 1.3em;
+  text-align: center;
 }
 
 .wrapper-list ul.list {
@@ -130,6 +131,7 @@ body {
   font-family: "Roboto Condensed", Arial, sans-serif;
   font-size: 1.2em;
   color: white;
+  text-align: center;
 }
 
 @keyframes collapseItem {
