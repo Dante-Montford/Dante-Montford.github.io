@@ -30,6 +30,7 @@ body {
   color: #fff;
   font-size: 1.3em;
   text-align: center;
+  align-items: center;
 }
 
 .wrapper-list ul.list {
@@ -131,7 +132,7 @@ body {
   font-family: "Roboto Condensed", Arial, sans-serif;
   font-size: 1.2em;
   color: white;
-  text-align: center;
+  align-items: center;
 }
 
 @keyframes collapseItem {
@@ -140,5 +141,12 @@ body {
   }
   100% {
     transform: rotateX(-90deg);
+  }
+}
+
+@media (max-width: 1000px) {
+  body {
+    width: 100%;
+    height: 100%;
   }
 }
